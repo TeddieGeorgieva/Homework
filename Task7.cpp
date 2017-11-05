@@ -13,7 +13,8 @@ int main()
 	cout << "Enter a number between 10 and 200" << endl;
 	cin >> n;
 	
-	if (n >= 10 && n <= 200) {
+	if (n >= 10 && n <= 200) 
+	{
 		for (int i = n; i > 1; i--)
 		{
 			i % 7 == 0;
