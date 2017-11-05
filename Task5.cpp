@@ -14,16 +14,17 @@ int main()
 
 	for (int i = 100; i<1000; i++)
 	{
-		    a = i / 100 % 10,
-			b = i / 10 % 10,
-			c = i % 10;
+		a = i / 100 % 10,
+		b = i / 10 % 10,
+		c = i % 10;
 
-		if ( a == b || a ==c || b == c){
+		if ( a == b || a ==c || b == c)
+		{
 			continue;
-	}
+	        }
 		cout << i << " " << endl;
 		count++;
-} 
+        } 
 	cout << count << endl;
 
 	system("PAUSE");
